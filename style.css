@@ -141,3 +141,38 @@ main {
   color: #426696;
   font-weight: bold;
 }
+
+@media (max-width: 600px) {
+  .glass {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .circle1 {
+    top: 2%;
+  }
+
+  .circle2 {
+    top: 250%;
+    left: 0%;
+  }
+
+  .user img {
+    margin-top: 3rem;
+  }
+
+  h1 {
+    color: #426696;
+    font-weight: 600;
+    font-size: 2rem;
+    opacity: 0.8;
+  }
+
+  h2,
+  h3,
+  p {
+    color: #658ec6;
+    font-weight: 500;
+    opacity: 0.8;
+  }
+}
